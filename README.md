@@ -38,5 +38,5 @@ feedback to the user regarding the outcome of the unlock attempt.
 
 # Conclusion and Limitation
 The code for the embedded sentry successfully enabled to record and compare movements as passwords.
-It provided accurate feedback through lights and sounds, ensuring repeatability. However, one limitation is encountered where symmetrical patterns are interpreted same and could also unlock the system. This occurred due to the decision to
+It provided accurate feedback through lights and sounds, ensuring repeatability. However, one limitation is encountered where symmetrical patterns are interpreted as the same and could also unlock the system. This occurred due to the decision to
 combine the x, y, and z acceleration data. While the believe is that this issue could be resolved by comparing the data separately, it is not implemented in the this repo as the memory was the more priority while doing the project. 
