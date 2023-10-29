@@ -36,9 +36,7 @@ feedback to the user regarding the outcome of the unlock attempt.
 <img width="488" alt="Screen Shot 2023-10-29 at 5 37 09 PM" src="https://github.com/Sushil298/Embedded-Sentry/assets/80779647/e1eecf1b-149a-4661-973e-763817412af9">
 
 
-# Conclusion
+# Conclusion and Limitation
 The code for the embedded challenge successfully enabled us to record and compare movements as passwords.
-It provided accurate feedback through lights and sounds, ensuring repeatability. However, we encountered a
-limitation where symmetrical patterns could also unlock the system. This occurred due to our decision to
-combine the x, y, and z acceleration data. While this issue could be resolved by comparing the data separately,
-we chose to prioritize efficient EEPROM memory usage.
+It provided accurate feedback through lights and sounds, ensuring repeatability. However, one limitation is encountered where symmetrical patterns are interpreted same and could also unlock the system. This occurred due to the decision to
+combine the x, y, and z acceleration data. While the believe is that this issue could be resolved by comparing the data separately, it is not implemented in the this repo as the memory was the more priority while doing the project. 
